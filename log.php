@@ -4,7 +4,7 @@
 </head>
 <body>
 <?php
-$dbhost="localhost"; $dbuser="aemmpl_ola"; $dbpassword="baza"; $dbname="aemmpl_bazola"; 
+$dbhost="localhost"; $dbuser="aemmpl_ola"; $dbpassword="XXXXX"; $dbname="aemmpl_bazola"; 
 $polaczenie = mysqli_connect ($dbhost, $dbuser, $dbpassword);                       
 mysqli_select_db ($polaczenie, $dbname);
 $data = date('d.m.Y H:i:s', time());  
